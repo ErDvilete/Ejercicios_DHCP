@@ -45,10 +45,9 @@ Server2->>Client: DHCP pack
 
 %%The user remains active 12H, but as the server operates with average lease time of 8hours, the client has to request again the server2
 
-note right of Client: The client works for 8 hours and <br/>  he has to request again
-Client->>Server2: DHCP request
-Server2->>Client: DCHP pack
+note right of Client: The client works for 4 hours and <br/>  the server aks to renew the login
 note right of Client: The client keeps working for 4 hours
+note right of Client: The client works for 4 hours and <br/>  the server aks to renew the login
 
 %%The user discconects for 1 hour
 
@@ -65,4 +64,3 @@ note right of Client: The user works for 5 long hours
 %%the user disconnets permanently
 
 note over Client: The user disconnects definitely
-
