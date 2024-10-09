@@ -1,5 +1,7 @@
 # Ejercicios_DHCP
 
+```mermaid
+
 
 sequenceDiagram
 
@@ -64,3 +66,6 @@ note right of Client: The user works for 5 long hours
 %%the user disconnets permanently
 
 note over Client: The user disconnects definitely
+
+
+```
